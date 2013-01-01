@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="survey.xsl" type="text/xsl" ?>
+<survey>
+  <page>
+    <title>First questions</title>
+    <question>
+      <text>Rate your skills</text>
+      <likert>
+	<scale>
+	  <description>Muchly</description>
+	  <description>Some</description>
+	  <description>Meh</description>
+	  <description>no thanks</description>
+	  <description>Not on your life sonny</description>
+	</scale>
+	<statement>I like programming</statement>
+	<statement>UI design is the best thing ever</statement>
+	<statement>I'm more into testing</statement>
+      </likert>
+    </question>
+    <question>
+      <text>Tell us all your personal details so we can hunt you down later</text>
+      <freetext>Name</freetext>
+      <freetext>Sex</freetext>
+    </question>
+  </page>
+  <page>
+    <title>More questions on other stuff</title>
+    <question>
+      <text>Tell us about your friends too</text>
+      <freetext>Another Name</freetext>
+    </question>
+  </page>
+  <page>
+    <title>Last questions</title>
+    <question>
+      <list>
+	<option>Pink</option>
+	<option>Green</option>
+	<option>Red</option>
+      </list>
+    </question>
+  </page>
+</survey>

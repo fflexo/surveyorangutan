@@ -1,0 +1,77 @@
+.rot {
+    /*display:block;*/
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+}
+
+table.likert {
+    border: none;
+}
+
+table.likert thead {
+    font-weight: bold;
+}
+
+table.likert thead td.description {
+    width: 75px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table.likert tbody tr {
+    text-align: center;
+}
+
+table.likert tbody tr td.statement {
+    text-align: right;
+}
+
+table.likert tbody tr:nth-child(odd) {
+    background: #CCC;
+}
+
+table.likert tbody tr:nth-child(even) {
+    background: #FFF;
+}
+
+div.page {
+    border: solid 1px;
+}
+
+div.pagination {
+    border-top: solid 1px;
+    text-align: center;
+    height: 30px;
+}
+
+div.pagination span {
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;    
+}
+
+div.pagination .next {
+    float: right;
+    text-align: right;
+}
+
+div.pagination .prev {
+    float: left;
+    text-align: left;
+}
+
+div.question {
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.freetext {
+    display: inline-block;
+    text-align: right;
+    width: 125px;
+}
